@@ -4,22 +4,26 @@ import json
 from urllib.parse import quote
 from flask import Flask, jsonify, send_from_directory
 import os
+import pyautogui
 
 # Set up the Selenium driver
 # Assuming ChromeDriver is in the current working directory
 driver = webdriver.Chrome()
 
-# Accept user input for the search query
-search_query = 'iphone 15'
-# URL encode the search query
-encoded_query = quote(search_query)
+# # Accept user input for the search query
+# search_query = 'SSD Sata 1TB'
+# # URL encode the search query
+# encoded_query = quote(search_query)
 
+with open('output.txt', 'r') as file:
+    content = file.read()
+    print(content)
 # Construct the URL with the encoded search query
-url = f'https://www.smartprix.com/products/?q={encoded_query}'
-print(url)
+# url = f'https://www.smartprix.com/products/?q={encoded_query}'
+# print(url)
 
 # Use Selenium to navigate to the URL
-driver.get(url)
+driver.get(content)
 
 # Wait for the dynamic content to load (adjust the wait time as necessary)
 driver.implicitly_wait(10)
@@ -28,15 +32,48 @@ driver.implicitly_wait(10)
 soup = BeautifulSoup(driver.page_source, 'html.parser')
 
 products_info = []
-products_div = soup.find_all('div', class_='sm-product') # Assuming 'sm-product' is the correct class for individual products
-print(products_div)
+products_div = soup.find_all('div', class_='pg-prd-main-right') # Assuming 'sm-product' is the correct class for individual products
+# print(products_div)
+
+co1_list = []
+co2_list = []
+co3_list = []
 
 for product in products_div:
-    name = product.find('a', class_='name clamp-2').text if product.find('a', class_='name clamp-2') else None
-    price = product.find('span', class_='price').text if product.find('span', class_='price') else None
+    name = product.find('div', class_='pg-prd-head').text if product.find('div', class_='pg-prd-head') else None
+    price = product.find('div', class_='price').text if product.find('div', class_='price') else None
+    co_elements = product.find_all('div', class_='name')
+    co1 = co_elements[0].text if co_elements else None
+    co2 = co_elements[1].text if co_elements else None
+    co3 = co_elements[2].text if co_elements else None
+    # co_url = product.find_all('src', class_='')
+    co_price = product.find_all('span', class_='price')
+    # co1_url = product.find('src', class_='').text if product.find('src', class_='') else None
+    # co2_url = product.find('src', class_='').text if product.find('src', class_='') else None
+    # co3_url = product.find('src', class_='').text if product.find('src', class_='') else None
+    # co1_price = product.find('span', class_='price').text if product.find('span', class_='price') else None
+    # co2_price = product.find('span', class_='price').text if product.find('span', class_='price') else None
+    # co3_price = product.find('span', class_='price').text if product.find('span', class_='price') else None
+    # co1_url = co_url[0].text if co_elements else None
+    # co2_url = co_url[1].text if co_elements else None
+    # co3_url = co_url[2].text if co_elements else None
+
+    co1_price = co_price[0].text if co_elements else None
+    co2_price = co_price[1].text if co_elements else None
+    co3_price = co_price[2].text if co_elements else None
+
+    co1_list.append(co1)
+    co1_list.append(co1_price)
+    co2_list.append(co2)
+    co2_list.append(co2_price)
+    co3_list.append(co3)
+    co3_list.append(co3_price)
     product_info = {
         'name': name,
-        'price': price
+        'price': price,
+        'co1':co1_list,
+        'co2':co2_list,
+        'co3':co3_list
         # Add more fields if needed
     }
     products_info.append(product_info)
