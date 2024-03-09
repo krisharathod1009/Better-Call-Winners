@@ -1,0 +1,114 @@
+[
+    {
+        "name": "Xiaomi Redmi G Pro 2024 Gaming Laptop (14th Gen Core i9/ 16GB/ 1TB SSD/ Win11 Home/ RTX 4060)",
+        "price": "\u20b91,02,990"
+    },
+    {
+        "name": "HP Victus 16-s0094AX Gaming Laptop (AMD Ryzen 7 7840HS/ 16GB/ 1TB SSD/ Win11/ 6GB Graph)",
+        "price": "\u20b981,990"
+    },
+    {
+        "name": "HP Omen 16-xf0060AX Gaming Laptop (AMD Ryzen 7 7840HS/ 16GB/ 1TB SSD/ Win11/ 8GB Graph)",
+        "price": "\u20b91,17,490"
+    },
+    {
+        "name": "HP Omen 16-wf1025TX Gaming Laptop (14th Gen Core i7/ 16GB/ 1TB SSD/ Win11 Home/ 8GB Graph)",
+        "price": "\u20b91,57,900"
+    },
+    {
+        "name": "Asus TUF Gaming F15 FX506HE-HN385WS Gaming Laptop (11th Gen Core i7/ 16GB/ 1TB SSD/ Win11/ 4GB Graph)",
+        "price": "\u20b974,990"
+    },
+    {
+        "name": "HP Omen 16-n0123AX Gaming Laptop (AMD Ryzen 7 6800H/ 16GB/ 1TB SSD/ Win11/ 8GB Graph)",
+        "price": "\u20b91,12,990"
+    },
+    {
+        "name": "Lenovo Legion Pro 5 161IRX9 Laptop (14th Gen Core i9/ 32GB/ 1TB SSD/ Win11/ 8GB Graph)",
+        "price": "\u20b91,49,990"
+    },
+    {
+        "name": "Samsung Galaxy Book 4 Ultra Laptop (Intel Core Ultra 7 155H/ 32 GB RAM/ 1 TB SSD/ 6 GB Graphics)",
+        "price": "\u20b92,99,999"
+    },
+    {
+        "name": "Asus ROG Strix G16 2023 G614JU-N3200WS Gaming Laptop (13th Gen Core i7/ 16GB/ 1TB SSD/ Win11/ 6GB Graph)",
+        "price": "\u20b91,19,990"
+    },
+    {
+        "name": "Xiaomi Redmi Book Pro 16 2024 Laptop (Intel Core Ultra 5/ 32GB/ 1TB SSD/ Win 11)",
+        "price": "\u20b969,990"
+    },
+    {
+        "name": "Dell 15 G15-5530 Gaming Laptop (13th Gen Core i5/ 16GB/ 1TB SSD/ Win11/ 6GB Graph)",
+        "price": "\u20b981,990"
+    },
+    {
+        "name": "Asus Zenbook 14 OLED 2024 UX3405MA-PZ552WS Laptop (Intel Core Ultra 5/ 16GB/ 1TB SSD/ Win11 Home)",
+        "price": "\u20b91,02,900"
+    },
+    {
+        "name": "Lenovo IdeaPad Slim 5 14IMH9 83DA0043IN Laptop (Intel Core Ultra 5/ 16 GB RAM/ 1TB SSD/ Win 11)",
+        "price": "\u20b979,990"
+    },
+    {
+        "name": "HP Omen 16-xf0081AX Gaming Laptop (AMD Ryzen 7 7840HS/ 32GB/ 1TB SSD/ Win11/ 8GB Graph)",
+        "price": "\u20b91,35,999"
+    },
+    {
+        "name": "HP Victus 15-fa1145TX Gaming Laptop (12th Gen Core i5/ 16GB/ 1TB SSD/ Win11 Home/ 4GB Graph)",
+        "price": "\u20b966,990"
+    },
+    {
+        "name": "Apple MacBook Pro 16 2023 Laptop (Apple M3 Max/ 48GB/ 1TB SSD/ macOS)",
+        "price": "\u20b93,99,900"
+    },
+    {
+        "name": "Zebronics ZEB-NBC 5S 2023 Laptop (12th Gen Core i7 / 16GB/ 1TB SSD/ Win11 Home)",
+        "price": "\u20b940,990"
+    },
+    {
+        "name": "MSI Thin GF63 11UC-1490IN Gaming Laptop (11th Gen Core i5/ 16GB/ 1TB 256GB SSD/ Win11 Home/ 4GB Graph)",
+        "price": "\u20b951,990"
+    },
+    {
+        "name": "Infinix Zerobook 2023 Laptop (13th Gen Core i9/ 32GB/ 1TB SSD/ Win 11 Home)",
+        "price": "\u20b954,990"
+    },
+    {
+        "name": "MSI Sword 15 A12VF-401IN Gaming Laptop (12th Gen Core i7/ 16GB/ 1TB SSD/ Win11/ 8GB Graph)",
+        "price": "\u20b91,05,990"
+    },
+    {
+        "name": "Apple MacBook Air 2020 MGND3HN Laptop (Apple M1/ 8GB/ 256GB SSD/ MacOS)",
+        "price": "\u20b969,990"
+    },
+    {
+        "name": "Acer Predator Helios Neo 16 PHN16-71 Gaming Laptop (13th Gen Core i7/ 16GB/ 1TB SSD/ Win11/ 6GB Graph)",
+        "price": "\u20b91,07,490"
+    },
+    {
+        "name": "Lenovo LOQ 15APH8 82XT009CIN 2023 Gaming Laptop (AMD Ryzen 7 7840HS/ 16GB/ 512GB SSD/ Win11/ 8GB Graph)",
+        "price": "\u20b91,01,990"
+    },
+    {
+        "name": "Lenovo ThinkBook 15 G5 21JF002JIN Laptop (AMD Ryzen 3 7330U/ 8 GB/ 512 GB SSD/ Win11)",
+        "price": "\u20b933,400"
+    },
+    {
+        "name": "HP 15s-fq5330TU Laptop (12th Gen Core i5/ 16GB/ 512GB SSD/ Win11 Home)",
+        "price": "\u20b953,990"
+    },
+    {
+        "name": "Zebronics ZEB-NBC 5S Laptop (12th Gen Core i7 / 16GB/ 512GB SSD/ Win11 Home)",
+        "price": "\u20b940,990"
+    },
+    {
+        "name": "Asus ROG Strix G17 G713RC-HX109WS Gaming Laptop (AMD Ryzen 7 6800H/ 16GB/ 512GB SSD/ Win11/ 4GB Graph)",
+        "price": "\u20b979,990"
+    },
+    {
+        "name": "Samsung Galaxy Book2 Pro 13 Laptop (12th Gen Core i5/ 16GB/ 512GB SSD/ Win11)",
+        "price": "\u20b961,990"
+    }
+]
